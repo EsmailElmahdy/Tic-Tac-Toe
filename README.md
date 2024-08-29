@@ -24,4 +24,4 @@ Welcome to the Tic-Tac-Toe game! This project provides a classic Tic-Tac-Toe exp
 1. **Clone the Repository:**
 
    ```sh
-   git clone https://github.com/EsmailElmahdy/Tic-Tac-Toe.git
+   Download the X O.apk on your phone and setup ut
