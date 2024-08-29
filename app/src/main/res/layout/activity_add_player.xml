@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/pagebkg"
+    tools:context=".AddPlayer">
+
+    <!-- CardView Container -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+        <!-- LinearLayout Inside the CardView -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="24dp"
+            android:background="@drawable/lavender_border">
+
+            <!-- Settings Button -->
+            <ImageButton
+                android:id="@+id/settingsBtn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end"
+                android:background="#00FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/settings"
+                tools:src="@drawable/settings" />
+
+            <!-- Heading TextView -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_n_player_name"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="@color/lavender"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Player One EditText -->
+            <EditText
+                android:id="@+id/playerOne"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:hint="@string/enter_player_one_name"
+                android:textColor="@color/lavender"
+                android:drawableLeft="@drawable/ic_xicon"
+                android:drawablePadding="8dp" />
+
+            <!-- Player Two EditText -->
+            <EditText
+                android:id="@+id/playerTwo"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="20dp"
+                android:padding="8dp"
+                android:maxLines="1"
+                android:textStyle="italic"
+                android:hint="@string/enter_player_two_name"
+                android:textColor="@color/lavender"
+                android:drawableLeft="@drawable/ic_oicon"
+                android:drawablePadding="8dp" />
+
+            <!-- Start Game Button -->
+            <Button
+                android:id="@+id/startGameButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/start_game"
+                android:textSize="18sp"
+                android:backgroundTint="@color/lavender"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                app:cornerRadius="20dp" />
+
+            <!-- Play with Computer Button -->
+            <Button
+                android:id="@+id/playWithComputer"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/play_with_computer"
+                android:textSize="18sp"
+                android:backgroundTint="@color/lavender"
+                android:textColor="@android:color/white"
+                android:fontFamily="sans-serif"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_n_player_name">Geben Sie die Namen der Spieler ein</string>
+    <string name="enter_player_one_name">Geben Sie den Namen des ersten Spielers ein</string>
+    <string name="start_game">Starten Sie das Spiel</string>
+    <string name="enter_player_two_name">Geben Sie den Namen des zweiten Spielers ein</string>
+    <string name="play_with_computer">Spielen Sie mit dem Computer</string>
+    <string name="player_one">Erster Spieler</string>
+    <string name="player_two">Zweiter Spieler</string>
+    <string name="start_again">Spielen Sie noch einmal</string>
+    <string name="draw">Gleichgewicht</string>
+    <string name="winner">Der Gewinner ist</string>
+    <string name="Winner">Der Gewinner ist</string>
+    <string name="login">Login</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="signup">Melden Sie sich an</string>
+    <string name="logout">Ausloggen</string>
+    <string name="language">Sprache</string>
+    <string name="apply">anwenden</string>
+    <string name="remember_me">Erinnere dich an mich</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">X O</string>
+    <string name="enter_n_player_name">ENTER \n PLAYER NAME</string>
+    <string name="enter_player_one_name">Enter player one name</string>
+    <string name="start_game">Start Game</string>
+    <string name="enter_player_two_name">Enter player two name</string>
+    <string name="play_with_computer">Play With Computer</string>
+    <string name="player_one">Player One</string>
+    <string name="player_two">Player Two</string>
+    <string name="draw">Draw</string>
+    <string name="start_again">Start Again</string>
+    <string name="winner">is a Winner!</string>
+    <string name="Winner">Winner</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup">SignUp</string>
+    <string name="logout">Logout</string>
+    <string name="language">Language</string>
+    <string name="apply">Apply</string>
+    <string name="remember_me">Remember Me</string>
+</resources>

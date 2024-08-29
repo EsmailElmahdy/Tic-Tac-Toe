@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_n_player_name">قم بأدخال اسامي اللاعبين</string>
+    <string name="enter_player_one_name">ادخل اسم اللاعب الاول</string>
+    <string name="start_game">ابدء اللعبه</string>
+    <string name="enter_player_two_name">ادخل اسم اللاعب التاني</string>
+    <string name="play_with_computer">العب مع الكمبيوتر</string>
+    <string name="player_one">اللاعب الاول</string>
+    <string name="player_two">اللاعب الثاني</string>
+    <string name="start_again">العب مرة اخرى</string>
+    <string name="draw">تعادل</string>
+    <string name="winner">الفائز هو</string>
+    <string name="Winner">الفائز هو</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة السر</string>
+    <string name="signup">تسجيل حساب جديد</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="language">اللغة</string>
+    <string name="apply">تطبيق</string>
+    <string name="remember_me">تذكرني</string>
+</resources>
