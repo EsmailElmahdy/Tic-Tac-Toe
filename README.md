@@ -13,6 +13,8 @@ Welcome to the Tic-Tac-Toe game! This project provides a classic Tic-Tac-Toe exp
 
 - **Login & Remember Me:** Users can log in to the game, with an option to use the "Remember Me" feature to stay logged in across sessions.
 
+- - **Sign Up:** Users can sign up to the game.
+
 - **Two Game Modes:**
   - **Play with Friend:** Challenge a friend in a two-player mode.
   - **Play with Device:** Compete against the device in single-player mode.
