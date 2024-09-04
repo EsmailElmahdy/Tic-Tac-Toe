@@ -62,4 +62,17 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         return count > 0;
     }
+
+    public boolean checkUsername(String username) {
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.query(TABLE_USERS, new String[]{COLUMN_ID},
+                COLUMN_USERNAME + "=? ",
+                new String[]{username}, null, null, null);
+
+        int count = cursor.getCount();
+        cursor.close();
+        db.close();
+
+        return count > 0;
+    }
 }

@@ -39,13 +39,15 @@ public class SignUp extends AppCompatActivity {
                     Toast.makeText(SignUp.this, "Please fill in all fields", Toast.LENGTH_SHORT).show();
                 } else {
                     // Add user to the database
-                    boolean isInserted = databaseHelper.addUser(username, password);
+                    if(!databaseHelper.checkUsername(username)) {
+                        boolean isInserted = databaseHelper.addUser(username, password);
 
-                    if (isInserted) {
-                        Toast.makeText(SignUp.this, "Sign-up successful!", Toast.LENGTH_SHORT).show();
-                        finish(); // Close the sign-up activity
-                    } else {
-                        Toast.makeText(SignUp.this, "Sign-up failed. Try again.", Toast.LENGTH_SHORT).show();
+                        if (isInserted) {
+                            Toast.makeText(SignUp.this, "Sign-up successful!", Toast.LENGTH_SHORT).show();
+                            finish(); // Close the sign-up activity
+                        } else {
+                            Toast.makeText(SignUp.this, "Sign-up failed. Try again.", Toast.LENGTH_SHORT).show();
+                        }
                     }
                 }
             }
