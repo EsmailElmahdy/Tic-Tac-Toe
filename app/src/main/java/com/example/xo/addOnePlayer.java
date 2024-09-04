@@ -16,13 +16,6 @@ public class addOnePlayer extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        SharedPreferences sharedPreferences = getSharedPreferences("AppPrefs", MODE_PRIVATE);
-        if (sharedPreferences == null) {
-            throw new NullPointerException("SharedPreferences is null");
-        }
-
-        String language = sharedPreferences.getString("language", "en");
-        LocaleHelper.setLocale(this, language);
         setContentView(R.layout.activity_add_one_player);
 
         playerOne = findViewById(R.id.playerOne);
