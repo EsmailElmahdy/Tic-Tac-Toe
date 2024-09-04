@@ -101,11 +101,4 @@ public class AddPlayer extends AppCompatActivity {
         editor.apply();
     }
 
-    public void refreshApp() {
-        // Restart the activity or refresh the app to apply the new language
-        Intent intent = getIntent();
-        finish();
-        startActivity(intent);
-    }
-
 }
